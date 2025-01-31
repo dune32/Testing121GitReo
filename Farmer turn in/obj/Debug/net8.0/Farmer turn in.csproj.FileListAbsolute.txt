@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\Farmer turn in\bin\Debug\net8.0\Farmer turn in.exe
+C:\Users\User\source\repos\Farmer turn in\bin\Debug\net8.0\Farmer turn in.deps.json
+C:\Users\User\source\repos\Farmer turn in\bin\Debug\net8.0\Farmer turn in.runtimeconfig.json
+C:\Users\User\source\repos\Farmer turn in\bin\Debug\net8.0\Farmer turn in.dll
+C:\Users\User\source\repos\Farmer turn in\bin\Debug\net8.0\Farmer turn in.pdb
+C:\Users\User\source\repos\Farmer turn in\obj\Debug\net8.0\Farmer turn in.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Farmer turn in\obj\Debug\net8.0\Farmer turn in.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Farmer turn in\obj\Debug\net8.0\Farmer turn in.AssemblyInfo.cs
+C:\Users\User\source\repos\Farmer turn in\obj\Debug\net8.0\Farmer turn in.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Farmer turn in\obj\Debug\net8.0\Farmer turn in.dll
+C:\Users\User\source\repos\Farmer turn in\obj\Debug\net8.0\refint\Farmer turn in.dll
+C:\Users\User\source\repos\Farmer turn in\obj\Debug\net8.0\Farmer turn in.pdb
+C:\Users\User\source\repos\Farmer turn in\obj\Debug\net8.0\Farmer turn in.genruntimeconfig.cache
+C:\Users\User\source\repos\Farmer turn in\obj\Debug\net8.0\ref\Farmer turn in.dll
