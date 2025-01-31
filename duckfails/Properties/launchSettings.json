@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "duckfails": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

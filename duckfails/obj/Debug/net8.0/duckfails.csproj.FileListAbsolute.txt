@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\duckfails\bin\Debug\net8.0\duckfails.exe
+C:\Users\User\source\repos\duckfails\bin\Debug\net8.0\duckfails.deps.json
+C:\Users\User\source\repos\duckfails\bin\Debug\net8.0\duckfails.runtimeconfig.json
+C:\Users\User\source\repos\duckfails\bin\Debug\net8.0\duckfails.dll
+C:\Users\User\source\repos\duckfails\bin\Debug\net8.0\duckfails.pdb
+C:\Users\User\source\repos\duckfails\obj\Debug\net8.0\duckfails.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\duckfails\obj\Debug\net8.0\duckfails.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\duckfails\obj\Debug\net8.0\duckfails.AssemblyInfo.cs
+C:\Users\User\source\repos\duckfails\obj\Debug\net8.0\duckfails.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\duckfails\obj\Debug\net8.0\duckfails.dll
+C:\Users\User\source\repos\duckfails\obj\Debug\net8.0\refint\duckfails.dll
+C:\Users\User\source\repos\duckfails\obj\Debug\net8.0\duckfails.pdb
+C:\Users\User\source\repos\duckfails\obj\Debug\net8.0\duckfails.genruntimeconfig.cache
+C:\Users\User\source\repos\duckfails\obj\Debug\net8.0\ref\duckfails.dll
