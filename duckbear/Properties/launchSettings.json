@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "duckbear": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

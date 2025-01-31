@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\duckbear\obj\Debug\net8.0\duckbear.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\duckbear\obj\Debug\net8.0\duckbear.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\duckbear\obj\Debug\net8.0\duckbear.AssemblyInfo.cs
+C:\Users\User\source\repos\duckbear\obj\Debug\net8.0\duckbear.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\duckbear\bin\Debug\net8.0\duckbear.exe
+C:\Users\User\source\repos\duckbear\bin\Debug\net8.0\duckbear.deps.json
+C:\Users\User\source\repos\duckbear\bin\Debug\net8.0\duckbear.runtimeconfig.json
+C:\Users\User\source\repos\duckbear\bin\Debug\net8.0\duckbear.dll
+C:\Users\User\source\repos\duckbear\bin\Debug\net8.0\duckbear.pdb
+C:\Users\User\source\repos\duckbear\obj\Debug\net8.0\duckbear.dll
+C:\Users\User\source\repos\duckbear\obj\Debug\net8.0\refint\duckbear.dll
+C:\Users\User\source\repos\duckbear\obj\Debug\net8.0\duckbear.pdb
+C:\Users\User\source\repos\duckbear\obj\Debug\net8.0\duckbear.genruntimeconfig.cache
+C:\Users\User\source\repos\duckbear\obj\Debug\net8.0\ref\duckbear.dll
