@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "The Defense of Consolas": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
