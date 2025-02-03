@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Repairing the Clocktower": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

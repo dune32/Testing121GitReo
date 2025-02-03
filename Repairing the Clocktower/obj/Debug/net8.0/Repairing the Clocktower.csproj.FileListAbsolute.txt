@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\Repairing the Clocktower\bin\Debug\net8.0\Repairing the Clocktower.exe
+C:\Users\User\source\repos\Repairing the Clocktower\bin\Debug\net8.0\Repairing the Clocktower.deps.json
+C:\Users\User\source\repos\Repairing the Clocktower\bin\Debug\net8.0\Repairing the Clocktower.runtimeconfig.json
+C:\Users\User\source\repos\Repairing the Clocktower\bin\Debug\net8.0\Repairing the Clocktower.dll
+C:\Users\User\source\repos\Repairing the Clocktower\bin\Debug\net8.0\Repairing the Clocktower.pdb
+C:\Users\User\source\repos\Repairing the Clocktower\obj\Debug\net8.0\Repairing the Clocktower.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Repairing the Clocktower\obj\Debug\net8.0\Repairing the Clocktower.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Repairing the Clocktower\obj\Debug\net8.0\Repairing the Clocktower.AssemblyInfo.cs
+C:\Users\User\source\repos\Repairing the Clocktower\obj\Debug\net8.0\Repairing the Clocktower.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Repairing the Clocktower\obj\Debug\net8.0\Repairing the Clocktower.dll
+C:\Users\User\source\repos\Repairing the Clocktower\obj\Debug\net8.0\refint\Repairing the Clocktower.dll
+C:\Users\User\source\repos\Repairing the Clocktower\obj\Debug\net8.0\Repairing the Clocktower.pdb
+C:\Users\User\source\repos\Repairing the Clocktower\obj\Debug\net8.0\Repairing the Clocktower.genruntimeconfig.cache
+C:\Users\User\source\repos\Repairing the Clocktower\obj\Debug\net8.0\ref\Repairing the Clocktower.dll
