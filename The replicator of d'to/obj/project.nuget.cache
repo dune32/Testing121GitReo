@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gxVjtJyxvXg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\The replicator of d'to\\The replicator of d'to.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\The prototype\obj\Debug\net8.0\The prototype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\The prototype\obj\Debug\net8.0\The prototype.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\The prototype\obj\Debug\net8.0\The prototype.AssemblyInfo.cs
+C:\Users\User\source\repos\The prototype\obj\Debug\net8.0\The prototype.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\The prototype\bin\Debug\net8.0\The prototype.exe
+C:\Users\User\source\repos\The prototype\bin\Debug\net8.0\The prototype.deps.json
+C:\Users\User\source\repos\The prototype\bin\Debug\net8.0\The prototype.runtimeconfig.json
+C:\Users\User\source\repos\The prototype\bin\Debug\net8.0\The prototype.dll
+C:\Users\User\source\repos\The prototype\bin\Debug\net8.0\The prototype.pdb
+C:\Users\User\source\repos\The prototype\obj\Debug\net8.0\The prototype.dll
+C:\Users\User\source\repos\The prototype\obj\Debug\net8.0\refint\The prototype.dll
+C:\Users\User\source\repos\The prototype\obj\Debug\net8.0\The prototype.pdb
+C:\Users\User\source\repos\The prototype\obj\Debug\net8.0\The prototype.genruntimeconfig.cache
+C:\Users\User\source\repos\The prototype\obj\Debug\net8.0\ref\The prototype.dll

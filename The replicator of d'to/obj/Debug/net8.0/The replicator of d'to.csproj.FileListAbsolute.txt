@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\The replicator of d'to\obj\Debug\net8.0\The replicator of d'to.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\The replicator of d'to\obj\Debug\net8.0\The replicator of d'to.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\The replicator of d'to\obj\Debug\net8.0\The replicator of d'to.AssemblyInfo.cs
+C:\Users\User\source\repos\The replicator of d'to\obj\Debug\net8.0\The replicator of d'to.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\The replicator of d'to\bin\Debug\net8.0\The replicator of d'to.exe
+C:\Users\User\source\repos\The replicator of d'to\bin\Debug\net8.0\The replicator of d'to.deps.json
+C:\Users\User\source\repos\The replicator of d'to\bin\Debug\net8.0\The replicator of d'to.runtimeconfig.json
+C:\Users\User\source\repos\The replicator of d'to\bin\Debug\net8.0\The replicator of d'to.dll
+C:\Users\User\source\repos\The replicator of d'to\bin\Debug\net8.0\The replicator of d'to.pdb
+C:\Users\User\source\repos\The replicator of d'to\obj\Debug\net8.0\The replicator of d'to.dll
+C:\Users\User\source\repos\The replicator of d'to\obj\Debug\net8.0\refint\The replicator of d'to.dll
+C:\Users\User\source\repos\The replicator of d'to\obj\Debug\net8.0\The replicator of d'to.pdb
+C:\Users\User\source\repos\The replicator of d'to\obj\Debug\net8.0\The replicator of d'to.genruntimeconfig.cache
+C:\Users\User\source\repos\The replicator of d'to\obj\Debug\net8.0\ref\The replicator of d'to.dll

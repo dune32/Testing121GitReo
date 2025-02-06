@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "The replicator of d'to": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
