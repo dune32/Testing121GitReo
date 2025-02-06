@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\Magic cannon\obj\Debug\net8.0\Magic cannon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Magic cannon\obj\Debug\net8.0\Magic cannon.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Magic cannon\obj\Debug\net8.0\Magic cannon.AssemblyInfo.cs
+C:\Users\User\source\repos\Magic cannon\obj\Debug\net8.0\Magic cannon.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Magic cannon\bin\Debug\net8.0\Magic cannon.exe
+C:\Users\User\source\repos\Magic cannon\bin\Debug\net8.0\Magic cannon.deps.json
+C:\Users\User\source\repos\Magic cannon\bin\Debug\net8.0\Magic cannon.runtimeconfig.json
+C:\Users\User\source\repos\Magic cannon\bin\Debug\net8.0\Magic cannon.dll
+C:\Users\User\source\repos\Magic cannon\bin\Debug\net8.0\Magic cannon.pdb
+C:\Users\User\source\repos\Magic cannon\obj\Debug\net8.0\Magic cannon.dll
+C:\Users\User\source\repos\Magic cannon\obj\Debug\net8.0\refint\Magic cannon.dll
+C:\Users\User\source\repos\Magic cannon\obj\Debug\net8.0\Magic cannon.pdb
+C:\Users\User\source\repos\Magic cannon\obj\Debug\net8.0\Magic cannon.genruntimeconfig.cache
+C:\Users\User\source\repos\Magic cannon\obj\Debug\net8.0\ref\Magic cannon.dll

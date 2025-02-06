@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\Buying inventory\obj\Debug\net8.0\Buying inventory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Buying inventory\obj\Debug\net8.0\Buying inventory.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Buying inventory\obj\Debug\net8.0\Buying inventory.AssemblyInfo.cs
+C:\Users\User\source\repos\Buying inventory\obj\Debug\net8.0\Buying inventory.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Buying inventory\bin\Debug\net8.0\Buying inventory.exe
+C:\Users\User\source\repos\Buying inventory\bin\Debug\net8.0\Buying inventory.deps.json
+C:\Users\User\source\repos\Buying inventory\bin\Debug\net8.0\Buying inventory.runtimeconfig.json
+C:\Users\User\source\repos\Buying inventory\bin\Debug\net8.0\Buying inventory.dll
+C:\Users\User\source\repos\Buying inventory\bin\Debug\net8.0\Buying inventory.pdb
+C:\Users\User\source\repos\Buying inventory\obj\Debug\net8.0\Buying inventory.dll
+C:\Users\User\source\repos\Buying inventory\obj\Debug\net8.0\refint\Buying inventory.dll
+C:\Users\User\source\repos\Buying inventory\obj\Debug\net8.0\Buying inventory.pdb
+C:\Users\User\source\repos\Buying inventory\obj\Debug\net8.0\Buying inventory.genruntimeconfig.cache
+C:\Users\User\source\repos\Buying inventory\obj\Debug\net8.0\ref\Buying inventory.dll
