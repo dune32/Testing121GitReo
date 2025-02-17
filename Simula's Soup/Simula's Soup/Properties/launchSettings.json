@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Simula's Soup": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
