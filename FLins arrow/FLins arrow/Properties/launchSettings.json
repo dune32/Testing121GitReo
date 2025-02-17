@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FLins arrow": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
