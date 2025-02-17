@@ -1,0 +1,7 @@
+C:\Users\zachr\source\repos\Boss Battle Hunting the Manticore\Boss Battle Hunting the Manticore\obj\Debug\Boss Battle Hunting the Manticore.csproj.AssemblyReference.cache
+C:\Users\zachr\source\repos\Boss Battle Hunting the Manticore\Boss Battle Hunting the Manticore\obj\Debug\Boss Battle Hunting the Manticore.csproj.CoreCompileInputs.cache
+C:\Users\zachr\source\repos\Boss Battle Hunting the Manticore\Boss Battle Hunting the Manticore\bin\Debug\Boss Battle Hunting the Manticore.exe.config
+C:\Users\zachr\source\repos\Boss Battle Hunting the Manticore\Boss Battle Hunting the Manticore\bin\Debug\Boss Battle Hunting the Manticore.exe
+C:\Users\zachr\source\repos\Boss Battle Hunting the Manticore\Boss Battle Hunting the Manticore\bin\Debug\Boss Battle Hunting the Manticore.pdb
+C:\Users\zachr\source\repos\Boss Battle Hunting the Manticore\Boss Battle Hunting the Manticore\obj\Debug\Boss Battle Hunting the Manticore.exe
+C:\Users\zachr\source\repos\Boss Battle Hunting the Manticore\Boss Battle Hunting the Manticore\obj\Debug\Boss Battle Hunting the Manticore.pdb

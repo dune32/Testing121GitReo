@@ -1,0 +1,7 @@
+C:\Users\zachr\source\repos\Boss battle manitor vs Consolas\Boss battle manitor vs Consolas\bin\Debug\Boss battle manitor vs Consolas.exe.config
+C:\Users\zachr\source\repos\Boss battle manitor vs Consolas\Boss battle manitor vs Consolas\bin\Debug\Boss battle manitor vs Consolas.exe
+C:\Users\zachr\source\repos\Boss battle manitor vs Consolas\Boss battle manitor vs Consolas\bin\Debug\Boss battle manitor vs Consolas.pdb
+C:\Users\zachr\source\repos\Boss battle manitor vs Consolas\Boss battle manitor vs Consolas\obj\Debug\Boss battle manitor vs Consolas.csproj.AssemblyReference.cache
+C:\Users\zachr\source\repos\Boss battle manitor vs Consolas\Boss battle manitor vs Consolas\obj\Debug\Boss battle manitor vs Consolas.csproj.CoreCompileInputs.cache
+C:\Users\zachr\source\repos\Boss battle manitor vs Consolas\Boss battle manitor vs Consolas\obj\Debug\Boss battle manitor vs Consolas.exe
+C:\Users\zachr\source\repos\Boss battle manitor vs Consolas\Boss battle manitor vs Consolas\obj\Debug\Boss battle manitor vs Consolas.pdb
