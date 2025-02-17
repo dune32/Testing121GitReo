@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Vins trouble": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

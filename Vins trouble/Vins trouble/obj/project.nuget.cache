@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HeARGxUOAeU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zachr\\source\\repos\\Vins trouble\\Vins trouble\\Vins trouble.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zachr\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
