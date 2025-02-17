@@ -1,0 +1,7 @@
+C:\Users\zachr\source\repos\Simula's Test\Simula's Test\obj\Debug\Simula's Test.csproj.AssemblyReference.cache
+C:\Users\zachr\source\repos\Simula's Test\Simula's Test\obj\Debug\Simula's Test.csproj.CoreCompileInputs.cache
+C:\Users\zachr\source\repos\Simula's Test\Simula's Test\bin\Debug\Simula's Test.exe.config
+C:\Users\zachr\source\repos\Simula's Test\Simula's Test\bin\Debug\Simula's Test.exe
+C:\Users\zachr\source\repos\Simula's Test\Simula's Test\bin\Debug\Simula's Test.pdb
+C:\Users\zachr\source\repos\Simula's Test\Simula's Test\obj\Debug\Simula's Test.exe
+C:\Users\zachr\source\repos\Simula's Test\Simula's Test\obj\Debug\Simula's Test.pdb
