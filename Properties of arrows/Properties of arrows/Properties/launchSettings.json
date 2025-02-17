@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Properties of arrows": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

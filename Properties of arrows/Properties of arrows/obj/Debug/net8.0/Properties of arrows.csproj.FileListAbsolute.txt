@@ -1,0 +1,14 @@
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\obj\Debug\net8.0\Properties of arrows.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\obj\Debug\net8.0\Properties of arrows.AssemblyInfoInputs.cache
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\obj\Debug\net8.0\Properties of arrows.AssemblyInfo.cs
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\obj\Debug\net8.0\Properties of arrows.csproj.CoreCompileInputs.cache
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\bin\Debug\net8.0\Properties of arrows.exe
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\bin\Debug\net8.0\Properties of arrows.deps.json
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\bin\Debug\net8.0\Properties of arrows.runtimeconfig.json
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\bin\Debug\net8.0\Properties of arrows.dll
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\bin\Debug\net8.0\Properties of arrows.pdb
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\obj\Debug\net8.0\Properties of arrows.dll
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\obj\Debug\net8.0\refint\Properties of arrows.dll
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\obj\Debug\net8.0\Properties of arrows.pdb
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\obj\Debug\net8.0\Properties of arrows.genruntimeconfig.cache
+C:\Users\zachr\source\repos\Properties of arrows\Properties of arrows\obj\Debug\net8.0\ref\Properties of arrows.dll
