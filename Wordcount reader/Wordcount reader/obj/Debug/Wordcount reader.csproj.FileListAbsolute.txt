@@ -1,0 +1,7 @@
+C:\Users\zachr\source\repos\Wordcount reader\Wordcount reader\bin\Debug\Wordcount reader.exe.config
+C:\Users\zachr\source\repos\Wordcount reader\Wordcount reader\bin\Debug\Wordcount reader.exe
+C:\Users\zachr\source\repos\Wordcount reader\Wordcount reader\bin\Debug\Wordcount reader.pdb
+C:\Users\zachr\source\repos\Wordcount reader\Wordcount reader\obj\Debug\Wordcount reader.csproj.AssemblyReference.cache
+C:\Users\zachr\source\repos\Wordcount reader\Wordcount reader\obj\Debug\Wordcount reader.csproj.CoreCompileInputs.cache
+C:\Users\zachr\source\repos\Wordcount reader\Wordcount reader\obj\Debug\Wordcount reader.exe
+C:\Users\zachr\source\repos\Wordcount reader\Wordcount reader\obj\Debug\Wordcount reader.pdb
