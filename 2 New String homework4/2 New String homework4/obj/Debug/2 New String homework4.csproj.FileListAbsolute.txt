@@ -1,0 +1,7 @@
+C:\Users\zachr\source\repos\2 New String homework4\2 New String homework4\obj\Debug\2 New String homework4.csproj.AssemblyReference.cache
+C:\Users\zachr\source\repos\2 New String homework4\2 New String homework4\obj\Debug\2 New String homework4.csproj.CoreCompileInputs.cache
+C:\Users\zachr\source\repos\2 New String homework4\2 New String homework4\bin\Debug\2 New String homework4.exe.config
+C:\Users\zachr\source\repos\2 New String homework4\2 New String homework4\bin\Debug\2 New String homework4.exe
+C:\Users\zachr\source\repos\2 New String homework4\2 New String homework4\bin\Debug\2 New String homework4.pdb
+C:\Users\zachr\source\repos\2 New String homework4\2 New String homework4\obj\Debug\2 New String homework4.exe
+C:\Users\zachr\source\repos\2 New String homework4\2 New String homework4\obj\Debug\2 New String homework4.pdb
