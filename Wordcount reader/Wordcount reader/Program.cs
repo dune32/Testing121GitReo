@@ -13,7 +13,7 @@ namespace Wordcount_reader
         static int CountWords(string sentence)
         {
             // Initialize count to 1 assuming at least one word
-            // is present
+          
             int count = 1;
 
             foreach (char character in sentence) //foreach better to use than for or while in this case. I didn't really get why char was a thing makes sense now.
