@@ -1,0 +1,2 @@
+C:\Users\zachr\source\repos\HW problem 1\HW problem 1\obj\Debug\HW problem 1.csproj.AssemblyReference.cache
+C:\Users\zachr\source\repos\HW problem 1\HW problem 1\obj\Debug\HW problem 1.csproj.CoreCompileInputs.cache
