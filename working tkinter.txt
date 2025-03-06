@@ -1,0 +1,271 @@
+import subprocess
+import sys
+import os
+import docx  # For handling Word documents
+import pandas as pd  # For handling Excel files
+import tkinter as tk
+import customtkinter as ctk  # For the GUI
+from tkinter import filedialog, messagebox
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM  # Corrected for T5 model
+from PIL import ImageTk, Image  # For image handling
+import threading
+
+# List of required packages
+required_packages = [
+    'python-docx', 'pandas', 'tkinter', 'customtkinter', 'transformers', 'Pillow', 'torch', 'openpyxl', 'sentencepiece'
+]
+
+# Function to install missing packages
+def install_packages(packages):
+    for package in packages:
+        try:
+            print(f"Checking and installing {package}...")
+            subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+        except subprocess.CalledProcessError as e:
+            print(f"Failed to install {package}. Error: {e}")
+            if package == "torch":
+                messagebox.showerror("PyTorch Installation Error", f"Failed to install PyTorch. Please install it manually. Error: {e}")
+                sys.exit(1)
+        except Exception as e:
+            print(f"An unexpected error occurred while installing {package}: {e}")
+
+# Ensure all required packages are installed
+install_packages(required_packages)
+
+# Initialize model (T5-small model for text summarization by default)
+model_name = "t5-small"  # Default model
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForSeq2SeqLM.from_pretrained(model_name)  # Correct model class for T5
+
+# Ensure padding token is set
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token  # Use eos_token as pad_token if none exists
+
+# Set up the Tkinter window with CustomTkinter
+root = ctk.CTk()
+root.geometry("2000x800")  # Full screen window
+root.title("Document Summary Generator")
+
+# Create a large summary display area
+summary_display = ctk.CTkTextbox(root, width=1500, height=500)  # Adjusted width and height for the summary
+summary_display.place(x=40, y=40)  # Top-left alignment with padding
+
+# Create a scrollable frame to display uploaded files
+scrollable_frame = ctk.CTkScrollableFrame(root, width=200, height=400)  # Width set to match buttons
+scrollable_frame.place(x=1700, y=525)  # Positioned 200px from the right edge and 25px from bottom
+
+# List to hold uploaded file paths
+uploaded_files = []
+
+# Add a progress bar to show task progress
+progress_label = ctk.CTkLabel(root, text="Processing Progress:")
+progress_label.place(x=40, y=680)  # Adjust position to be slightly above the progress bar
+
+progress_bar = ctk.CTkProgressBar(root, width=1500, height=25)  # Adjusted width for progress bar
+progress_bar.place(x=40, y=710)  # Lowered the progress bar 25 pixels from the bottom
+
+# Function to extract text from Word documents
+def extract_text_from_word(doc_path):
+    try:
+        doc = docx.Document(doc_path)
+        text = ""
+        for para in doc.paragraphs:
+            text += para.text + "\n"
+        return text
+    except Exception as e:
+        messagebox.showerror("Error", f"Failed to read Word document: {e}")
+        return ""
+
+# Function to extract text from PDFs
+def extract_text_from_pdf(pdf_path):
+    try:
+        import fitz  # PyMuPDF for PDF handling
+        doc = fitz.open(pdf_path)
+        text = ""
+        for page in doc:
+            text += page.get_text("text")
+        return text
+    except Exception as e:
+        messagebox.showerror("Error", f"Failed to read PDF file: {e}")
+        return ""
+
+# Function to extract text from Excel files
+def extract_text_from_excel(excel_path):
+    try:
+        text = ""
+        df = pd.read_excel(excel_path, sheet_name=None)
+        for sheet_name, sheet_data in df.items():
+            text += f"\n\n{sheet_name}\n"
+            for index, row in sheet_data.iterrows():
+                row_text = ""
+                for col, value in row.items():
+                    row_text += f"{col}: {str(value)}\n"
+                text += row_text
+        return text
+    except Exception as e:
+        messagebox.showerror("Error", f"Failed to read Excel file: {e}")
+        return ""
+
+# Function to split text into chunks that fit the model's max length
+def split_into_chunks(text, max_length=512):
+    tokens = tokenizer.encode(text)
+    chunks = []
+    for i in range(0, len(tokens), max_length):
+        chunk = tokens[i:i+max_length]
+        chunks.append(chunk)
+    return chunks
+
+# Function to generate summary using T5 model
+def summarize_text(text):
+    try:
+        if not text.strip():
+            return "Error: No text to summarize."
+        
+        # Split the input text into chunks if it exceeds the model's max length
+        chunks = split_into_chunks(text, max_length=512)
+
+        # List to store individual summaries for each chunk
+        summaries = []
+
+        # Update progress bar for each chunk
+        progress_bar.set(0)  # Reset progress bar to 0
+        total_chunks = len(chunks)
+
+        for i, chunk in enumerate(chunks):
+            # Update progress bar based on current chunk
+            progress_bar.set((i + 1) / total_chunks)
+            root.update()  # Update the GUI to show progress
+
+            # Convert chunk tokens back to text
+            chunk_text = tokenizer.decode(chunk, skip_special_tokens=True)
+
+            # Encode the chunk text with padding and truncation
+            inputs = tokenizer(chunk_text, return_tensors="pt", truncation=True, padding=True, max_length=512)
+
+            # Generate output from the model with attention mask
+            outputs = model.generate(inputs['input_ids'], max_length=150, num_return_sequences=1)
+
+            # Decode and append the summary for this chunk
+            summary = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            summaries.append(summary)
+
+        # Combine the summaries from all chunks
+        full_summary = " ".join(summaries)
+        return full_summary
+    
+    except Exception as e:
+        return f"Error summarizing text: {str(e)}"
+
+# Function to handle file summarization in a separate thread
+def process_files():
+    try:
+        if not uploaded_files:
+            messagebox.showwarning("No Files", "Please upload at least one document.")
+            return
+
+        # Combine text from all uploaded files
+        combined_text = ""
+        for file_path in uploaded_files:
+            file_extension = os.path.splitext(file_path)[1].lower()
+
+            if file_extension == '.docx':
+                combined_text += extract_text_from_word(file_path)
+            elif file_extension == '.pdf':
+                combined_text += extract_text_from_pdf(file_path)
+            elif file_extension in ['.xls', '.xlsx']:
+                combined_text += extract_text_from_excel(file_path)
+            else:
+                messagebox.showerror("Unsupported Format", "Unsupported file format.")
+                return
+
+        if not combined_text.strip():
+            messagebox.showwarning("No Text Found", "No readable text found in the uploaded files.")
+            return
+
+        # Generate and display the summary
+        summary = summarize_text(combined_text)
+
+        # Update the GUI on the main thread
+        root.after(0, update_summary_display, summary)
+
+    except Exception as e:
+        messagebox.showerror("Error", f"An error occurred: {e}")
+
+# Function to update the summary display
+def update_summary_display(summary):
+    summary_display.delete(1.0, tk.END)  # Clear previous summary
+    summary_display.insert(tk.END, summary)  # Display new summary
+
+# Function to upload files
+def upload_files():
+    try:
+        file_paths = filedialog.askopenfilenames(filetypes=[("Word Documents", "*.docx"),
+                                                           ("PDF Files", "*.pdf"),
+                                                           ("Excel Files", "*.xls;*.xlsx")])
+        if file_paths:
+            for file_path in file_paths:
+                uploaded_files.append(file_path)
+                file_name = os.path.basename(file_path)
+                label = ctk.CTkLabel(scrollable_frame, text=f"Uploaded: {file_name}")
+                label.pack(fill="x", padx=10, pady=5)
+        else:
+            messagebox.showwarning("No Files Selected", "Please select at least one file to upload.")
+    except Exception as e:
+        messagebox.showerror("Error", f"An error occurred while uploading the files: {e}")
+
+# Function to export summary to Word document
+def export_to_word(summary):
+    try:
+        doc = docx.Document()
+        doc.add_paragraph(summary)
+        doc.save("summary.docx")
+        messagebox.showinfo("Success", "Summary exported to summary.docx")
+    except Exception as e:
+        messagebox.showerror("Error", f"Failed to export to Word: {e}")
+
+# Function to handle the T5 model selection
+def choose_model(model_choice):
+    global model, tokenizer
+    try:
+        if model_choice == 'T5-small':
+            model_name = "t5-small"
+        elif model_choice == 'T5-base':
+            model_name = "t5-base"
+        elif model_choice == 'T5-large':
+            model_name = "t5-large"
+        
+        # Load the selected model and tokenizer
+        model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        
+        messagebox.showinfo("Model Loaded", f"{model_choice} model loaded successfully!")
+    except Exception as e:
+        messagebox.showerror("Error", f"Failed to load model: {e}")
+
+# Create Model Selection Buttons
+t5_small_button = ctk.CTkButton(root, text="T5-small", command=lambda: choose_model('T5-small'))
+t5_small_button.place(x=1700, y=40)
+
+t5_base_button = ctk.CTkButton(root, text="T5-base", command=lambda: choose_model('T5-base'))
+t5_base_button.place(x=1700, y=80)
+
+t5_large_button = ctk.CTkButton(root, text="T5-large", command=lambda: choose_model('T5-large'))
+t5_large_button.place(x=1700, y=120)
+
+# Create other buttons
+upload_button = ctk.CTkButton(root, text="Upload File", command=upload_files)
+upload_button.place(x=1700, y=160)
+
+summarize_button = ctk.CTkButton(root, text="Summarize", command=process_files)
+summarize_button.place(x=1700, y=200)
+
+export_button = ctk.CTkButton(root, text="Export Summary", command=lambda: export_to_word(summary_display.get(1.0, tk.END)))
+export_button.place(x=1700, y=240)
+
+root.mainloop()
+
+
+
+
+
+
