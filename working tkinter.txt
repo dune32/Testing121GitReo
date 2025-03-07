@@ -12,8 +12,9 @@ import threading
 
 # List of required packages
 required_packages = [
-    'python-docx', 'pandas', 'tkinter', 'customtkinter', 'transformers', 'Pillow', 'torch', 'openpyxl', 'sentencepiece'
+    'python-docx', 'pandas', 'tkinter', 'customtkinter', 'transformers', 'Pillow', 'torch', 'openpyxl', 'sentencepiece', 'PyMuPDF'
 ]
+
 
 # Function to install missing packages
 def install_packages(packages):
@@ -263,6 +264,7 @@ export_button = ctk.CTkButton(root, text="Export Summary", command=lambda: expor
 export_button.place(x=1700, y=240)
 
 root.mainloop()
+
 
 
 
